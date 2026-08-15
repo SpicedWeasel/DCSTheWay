@@ -38,7 +38,7 @@ Multiplayer is supported as long as the server has Player Exports turned on (mos
 
 ## How to install?
 1. Download the latest zip file from the Releases section [found here](https://github.com/SpicedWeasel/DCSTheWay/releases), and extract it.
-2. Copy the folder `TheWay` from `Scripts` into `Users/[yourname]/Saved Games/DCS/Scripts`
+2. Copy the folder `TheWay` into `Users/[yourname]/Saved Games/DCS/Scripts`
    (The `DCS` folder name may be `DCS.openbeta` if you are on the openbeta version of the game).
 3. Edit the `Export.lua` file inside the `Scripts` folder and append this line at the end of the file, and save it:
   ```lua
@@ -49,11 +49,11 @@ Multiplayer is supported as long as the server has Player Exports turned on (mos
 4. In the end, the folder structure should look like this:
  <img width="598" alt="folderStructure" src="https://github.com/aronCiucu/DCSTheWay/assets/45103765/567f33de-e6e5-4568-8026-30c3f39f62f7">
    
-5. Run `TheWay.exe` from the extracted folder.
-6. After it launches, you can go fly.
+5. Run the installer from the zip you extracted.
+6. After installation, the program will launch, and you can go fly. You can find a shortcut to TheWay on your desktop.
 THE WAY WILL NOT CONNECT TO DCS UNTIL YOU ARE IN THE COCKPIT OF YOUR CHOSEN MODULE
 
-If you are updating from an older version, replace the extracted app folder and replace your existing `TheWay` folder in Saved Games with the new one.
+If you are updating from an older version, download the newest release, run the installer again, and replace your existing `TheWay` folder in Saved Games with the new one.
 
 ## How to use? 
 Video tutorial here:
@@ -61,8 +61,8 @@ Video tutorial here:
 [![DCSTheWayVideoThumbnail](https://img.youtube.com/vi/B2Q1VurZ8ms/default.jpg)](https://youtu.be/B2Q1VurZ8ms)
 
 ## FAQ
-### I cannot find TheWay.exe
-Make sure you downloaded the zip from the Releases section, not the source code.
+### I cannot find the installer
+Make sure you downloaded the program from the Releases section, not the source code.
 ### How do I use this in VR?
 You can use the DCS 2D mirror on your desktop to interact with TheWay and DCS.
 You can also use the VR keybinds, which can be changed in Settings.
@@ -71,7 +71,7 @@ THE WAY WILL NOT CONNECT TO DCS UNTIL YOU ARE IN THE COCKPIT OF YOUR CHOSEN MODU
 Make sure you have followed the installation instructions exactly, and that every file is where it should be.
 Check that the server you are flying on has Player Exports turned on. If it doesn't, this won't work.
 ### Where is the app installed by default?
-This portable build runs from the folder you extracted. Preferences are stored at `C:\Users\USER\AppData\Roaming\theway`.
+TheWay is installed at `C:\Users\USER\AppData\Local\Programs\theway`.
 ### How can I reset the module seat choice after I've ticked "Remember my choice"?
 Go to `C:\Users\USER\AppData\Roaming\theway` and delete the `config.json` file. The dialogs will appear again.
 Keep in mind this will also remove your other preferences.
