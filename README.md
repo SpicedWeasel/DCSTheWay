@@ -61,27 +61,27 @@ Video tutorial here:
 [![DCSTheWayVideoThumbnail](https://img.youtube.com/vi/B2Q1VurZ8ms/default.jpg)](https://youtu.be/B2Q1VurZ8ms)
 
 ## FAQ
-### I cannot find the installer
-Make sure you have downloaded the program from the Releases section, and not the source code.  
-### How do I use this for VR?
-You can use the DCS 2D Mirror that you see on your desktop to interact with TheWay and DCS.
-Or you can use the VR keybinds that can be adjusted in settings. 
-### I do not anything other than "Enter cockpit to start" error!
+### I cannot find TheWay.exe
+Make sure you downloaded the zip from the Releases section, not the source code.
+### How do I use this in VR?
+You can use the DCS 2D mirror on your desktop to interact with TheWay and DCS.
+You can also use the VR keybinds, which can be changed in Settings.
+### I only see the "Enter cockpit to start" error
 THE WAY WILL NOT CONNECT TO DCS UNTIL YOU ARE IN THE COCKPIT OF YOUR CHOSEN MODULE.
-Make sure you have followed the installation instructions to the letter, and that every file is where it should be.
-Check if the server you are flying on has Player Exports turned on. If it doesn't, this won't work! 
+Make sure you have followed the installation instructions exactly, and that every file is where it should be.
+Check that the server you are flying on has Player Exports turned on. If it doesn't, this won't work.
 ### Where is the app installed by default?
-TheWay files are installed in Windows at `C:\Users\USER\AppData\Local\Programs\theway`
+This portable build runs from the folder you extracted. Preferences are stored at `C:\Users\USER\AppData\Roaming\theway`.
 ### How can I reset the module seat choice after I've ticked "Remember my choice"?
-Go to `C:\Users\USER\AppData\Roaming\theway` and delete the `config.json` file. Now the dialogs will appear again.
-Mind this will also remove your other preferences.
-### The buttons are not pressing correctly in DCS!
-If the waypoint entry is not working correctly, try increasing the Button Delay slider in the settings menu.
-If that still doesn't fix the issue, open an issue on GitHub and attach a video so I can check out what goes wrong.
+Go to `C:\Users\USER\AppData\Roaming\theway` and delete the `config.json` file. The dialogs will appear again.
+Keep in mind this will also remove your other preferences.
+### The buttons are not pressing correctly in DCS
+If waypoint entry is not working correctly, try increasing the Button Delay slider in the settings menu.
+If that still doesn't fix the issue, open a GitHub issue and attach a video so I can see what goes wrong.
 ### F-14B(U) waypoints are wrong or missing
 Stay in the RIO seat and leave the CDNU alone during transfer. TheWay asks GROUND vs AIRBORNE, then inserts points last-to-first on LSK2 so crew IDs 51, 52, … match WP1, WP2, …. After updating, also replace `Saved Games/DCS/Scripts/TheWay/TheWay.lua`.
-### None of my issues are shown here
-Worry not, feel free to issue a message request on Discord (Doge4634), and we'll have it sorted!
+### My issue isn't listed here
+Feel free to send a message on Discord (Doge4634) and we'll get it sorted.
 
 ## Credits
 Special thanks to **aronCiucu** for creating the original app: https://github.com/aronCiucu/DCSTheWay  
